@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Exchange rates</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body onload="fetchStudents()" style=" background-image: linear-gradient(to top right, rgb(208, 245, 223), rgb(180, 191, 233));">
+      <div id="Heading">
+                 
+                     <h1 style="font-size:35px; color:black;  text-align: center;margin-bottom: 50px; background-image: linear-gradient( rgb(142, 233, 146), rgb(124, 185, 235));
+                     width: 80%; display: block; margin-left: auto; margin-right: auto; box-shadow: 10px 10px 10px black; border: black 3px groove; border-radius: 0.5em;">CURRENCY EXCHANGE RATES</h1>
+                   
+                 </div>
+      
+      <div id="currencyInput">
+          <h1>CURRENCY</h1>
+          <form>
+            <label for="curencypairs">Choose a currency pair:
+              <select id="curencypairs" style="float: right;">
+                <option value="USD/EUR">USD/EUR</option>
+                <option value="GBP/USD">GBP/USD</option>
+                <option value="KSH/TSH">KSH/TSH</option>
+              </select>
+            </label>
+
+            <label for="days">Choose day:
+              <select id="days" style="float: right;">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+             
+              </select>
+            </label>
+
+              <label for="current exchange rate">Current Exchange Rate:
+                  <input id="rate" type="text" style="float: right;"/>
+              </label>
+              <label>
+                  <button>Add Rate</button>
+              </label>
+         
+ </form>
+            <table id="content">
+            </table>
+            <br>
+       
+ </div>
+
+
+
+<div style="float:left; padding-left:30px; border: black 3px;">
+  <form id="graphform">
+    <label for="curencygenpairs">Choose a currency pair to generate graph:<br><br>
+      <select id="curencyGenpairs">
+        <option value="USD/EUR">USD/EUR</option>
+        <option value="GBP/USD">GBP/USD</option>
+        <option value="KSH/TSH">KSH/TSH</option>
+      </select>
+    </label>
+    <button onclick="getcurrencyPair()">Generate Graph</button>
+  </form>
+  <canvas id="myChart" width="500" height="500" ></canvas>
+</div>
+
+
+
+
+<form id ="Editform" style="float: right; visibility: hidden;">
+  <span>New Rate</span>
+  <input id="newRate" name ='rate' type="text" />
+
+
+  <button>Add Rate</button>
+  <button id="hide" onclick="HideForm()">exit</button>
+</form>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@3.0.2/dist/chart.min.js"></script>
+  <script src="js/main.js"></script>
+
+    </body>
+
+</html>

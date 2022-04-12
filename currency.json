@@ -1,0 +1,102 @@
+[
+  {
+    "pair": "USD/EUR",
+    "day": "1",
+    "rate": 1.21
+  },
+  {
+    "pair": "GBP/USD",
+    "day": "1",
+    "rate": 1.33
+  },
+  {
+    "pair": "USD/EUR",
+    "day": "1",
+    "rate": 100
+  },
+  {
+    "pair": "USD/EUR",
+    "day": "2",
+    "rate": 0.98
+  },
+  {
+    "pair": "GBP/USD",
+    "day": "3",
+    "rate": 1.36
+  },
+  {
+    "pair": "USD/EUR",
+    "day": "3",
+    "rate": 0.9
+  },
+  {
+    "pair": "USD/EUR",
+    "day": "4",
+    "rate": 0.89
+  },
+  {
+    "pair": "GBP/USD",
+    "day": "4",
+    "rate": 1.29
+  },
+  {
+    "pair": "GBP/USD",
+    "day": "5",
+    "rate": 1.26
+  },
+  {
+    "pair": "USD/EUR",
+    "day": "5",
+    "rate": 0.85
+  },
+  {
+    "pair": "USD/EUR",
+    "day": "5",
+    "rate": 100
+  },
+  {
+    "pair": "GBP/USD",
+    "day": "6",
+    "rate": 1.45
+  },
+  {
+    "pair": "USD/EUR",
+    "day": "6",
+    "rate": 0.79
+  },
+  {
+    "pair": "GBP/USD",
+    "day": "7",
+    "rate": 1.4
+  },
+  {
+    "pair": "USD/EUR",
+    "day": "7",
+    "rate": 0.93
+  },
+  {
+    "pair": "GBP/USD",
+    "day": "8",
+    "rate": 1.31
+  },
+  {
+    "pair": "USD/EUR",
+    "day": "8",
+    "rate": 0.98
+  },
+  {
+    "pair": "GBP/USD",
+    "day": "9",
+    "rate": 1.21
+  },
+  {
+    "pair": "USD/EUR",
+    "day": "9",
+    "rate": 0.79
+  },
+  {
+    "pair": "USD/EUR",
+    "day": "1",
+    "rate": 1.23
+  }
+]
